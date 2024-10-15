@@ -40,3 +40,5 @@ The app employs a K-Nearest Neighbors (KNN) classifier, a popular machine learni
 - **Conclusion**
   - The Breast Cancer Analysis application serves as a useful tool for educational purposes, allowing users to understand the classification of tumors based on critical features while also providing insight into the significance of benign and malignant classifications in the medical field.
   - This project can also be extended with additional features, such as visualizations of the data distribution, model performance metrics, or alternative machine learning algorithms for comparison.
+
+App Explore https://breast-cancer-analysis-app.streamlit.app/
