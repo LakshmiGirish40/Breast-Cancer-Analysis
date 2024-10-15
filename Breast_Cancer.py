@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt # for data visualization purposes
 import seaborn as sns # for data visualization
 
 # Load the dataset
-data_path = r"D:\Data_Science&AI\ClassRoomMaterial\September\28th - KNN\28th - KNN\projects\KNN\brest cancer.txt"
-df = pd.read_csv(data_path, header=None)
+#data_path = r"D:\Data_Science&AI\ClassRoomMaterial\September\28th - KNN\28th - KNN\projects\KNN\brest cancer.txt"
+df = pd.read_csv("breast_cancer_data.csv")
 # Display the first few rows of the DataFrame
 print(df.head())
 
