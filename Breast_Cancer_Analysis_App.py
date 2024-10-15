@@ -14,7 +14,7 @@ import pickle
 from sklearn.impute import SimpleImputer  # Import the imputer
 
 # Dummy dataset loading (replace with actual data)
-data = pd.read_csv(r"D:\Data_Science&AI\Spyder\Breast_Cancer_Project\breast_cancer_data.csv")
+data = pd.read_csv("breast_cancer_data.csv")
 
 # Separate features and target
 X = data.drop('Class', axis=1)  # Replace 'target' with the actual target column name
