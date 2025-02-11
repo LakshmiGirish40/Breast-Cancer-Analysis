@@ -5,4 +5,4 @@ WORKDIR/APP
 COPY . . /
 RUN pip install requirements.txt
 
-ENTRYPOPINT['streamlit','run,'app.py','server.port=8080','server.address=0.0.0.0']
+ENTRYPOPINT['streamlit','run,'Breast_Cancer_Analysis_App.py','server.port=8080','server.address=0.0.0.0']
