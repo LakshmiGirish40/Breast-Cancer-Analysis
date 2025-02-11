@@ -4,4 +4,6 @@ pandas
 scikit-learn
 seaborn
 joblib
+google-cloud-aiplatform
+google-cloud-logging
 
